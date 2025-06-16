@@ -1,0 +1,29 @@
+{
+  "name": "cpu-time-simulation",
+  "version": "1.0.0",
+  "description": "Simple CPU process time management simulation",
+  "main": "src/index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --config webpack.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elbociano7/cpu-time-simulation.git"
+  },
+  "author": "",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/elbociano7/cpu-time-simulation/issues"
+  },
+  "homepage": "https://github.com/elbociano7/cpu-time-simulation#readme",
+  "devDependencies": {
+    "@types/blessed": "^0.1.25",
+    "blessed": "^0.1.81",
+    "ts-loader": "^9.5.2",
+    "tsx": "^4.20.3",
+    "typescript": "^5.8.3",
+    "webpack": "^5.99.9",
+    "webpack-cli": "^6.0.1"
+  }
+}
